@@ -1,0 +1,991 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  /* margin-left: 70px; */
+}
+.navbar {
+  overflow: hidden;
+  background-color: hsl(13, 39%, 93%);
+  background-image: linear-gradient(to bottom right, rgb(249, 148, 47), rgb(245, 173, 126));
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  padding-top: 15px;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(49, 45, 45);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: rgb(36, 32, 32);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #ff9152;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ff9152;
+  min-width: 160px; 
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #ff9152;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.btn {
+  background-color: rgb(235, 79, 22);
+  padding: 10px 10px;
+  border-radius: 25px;
+  border-color: rgb(235, 79, 22);
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  margin-left: 70px;
+  cursor: pointer;
+}
+#index_a {
+  color: white;
+  font-size: 15px;
+}
+#d1 {
+  padding-top: 80px;
+  height: 600px;
+}
+
+#hrz {
+  border-width: 2.5px;
+  color: black;
+}
+
+#s1 {
+  float: left;
+  margin-left: 70px;
+  color: #f54409;
+  font-size: 60px;
+  font-weight: bold;
+}
+#h3 {
+  font-size: 25px;
+  color: black;
+}
+.img1 {
+  float: right;
+  padding-bottom: 30px;
+}
+#p1 {
+  font-size: 30px;
+  color: #827f7f;
+}
+#btn2 {
+  background-color: #f6412d;
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+  margin-left: 15px;
+  font-size: 20px;
+  height: 50px;
+  width: 190px;
+  cursor: pointer;
+  border-color: orange;
+}
+
+#btn3 {
+  background-color: hwb(0 1% 99%);
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 20px;
+  height: 50px;
+  width: 130px;
+  cursor: pointer;
+  border-color: rgba(18, 17, 16, 0.82);
+}
+
+#icon_h2 {
+  margin-top: 40px;
+  color: #f54409;
+  ;
+  text-align: center;
+  /* font-size: 20px; */
+  font: 2em sans-serif;
+}
+
+
+/* our Services division css styles */
+#d2 {
+  padding-top: 100px;
+  height: 500px;
+}
+.service_card03 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 150px;
+  margin-left: 20px;
+  text-align: center;
+  background-color: #f3301e;
+  font-family: arial;
+  height: 200px;
+  float: left;
+  border-radius: 2px 3px 2px 3px;
+}
+.service_card02 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 180px;
+  margin-left: 30px;
+  text-align: center;
+  font-family: arial;
+  height: 200px;
+  float: left;
+  border-radius: 2 px 3px 2px 3px;
+}
+
+.service_card02:hover {
+  background-color: #f3301e;
+}
+#p2 {
+  color: #0d0b0b;
+  text-align: center;
+  font-size: 40px;
+  font: 3em sans-serif;
+  margin-left: 70px;
+  margin-right: 50px;
+  font-weight: bold;
+}
+.navbar-brand1 {
+  color: white;
+  font-size: 50px;
+}
+.navbar-brand {
+  color: rgb(14, 13, 13);
+  font-size: 50px;
+}
+#icon_a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font: 1.5em sans-serif;
+}
+/* bussiness card division start css styles */
+#d3 {
+  margin-left: 70px;
+  height: 550px;
+}
+.bussiness_card04 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 220px;
+  margin-left: 40px;
+  text-align: center;
+  font-family: arial;
+  margin-bottom: 10px;
+  height: 60px;
+  float: left;
+  border-radius: 10px;
+  padding: 20px;
+}
+.bussiness_card04:hover {
+  background-color: #f23f24;
+}
+#h01 {
+  margin-left: 50px;
+  font-size: 30px;
+  color: #000;
+  font-weight: bold;
+}
+#p3 {
+  /* float: left; */
+  font: 1.2em sans-serif;
+  margin-right: 500px;
+  margin-left: 50px;
+  /* margin-top: 30px; */
+  color: #696464;
+  text-align: left;
+  margin-top: 20px;
+}
+.img2 {
+  float: right;
+  /* padding-bottom: 0px; */
+  width: 500px;
+  height: 450px;
+}
+.btn1 {
+  background-color: #f54409;
+  padding: 15px 50px;
+  border-color: #f54409;
+  border-radius: 4px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin-left: 70px;
+  margin-top: 100px;
+  cursor: pointer;
+}
+#btn1_a {
+  text-decoration: none;
+  color: white;
+}
+#heading {
+  color: #f54409;
+  font-size: 25px;
+}
+#heading01 {
+  color: #f54409;
+  font-size: 45px;
+  text-align: left;
+}
+/* growth bussiness division css style */
+#d4 {
+  margin-left: 70px;
+  height: 700px;
+}
+.sp2 {
+  margin-left: 70px;
+  text-align: left;
+  font-size: 18px;
+  color: #050404;
+}
+.img3 {
+  float: right;
+  padding-bottom: 30px;
+  width: 400px;
+  height: 800px;
+}
+/* relationship division  css style */
+#d5 {
+  text-align: right;
+  margin-top: 150px;
+  margin-right: 40px;
+  height: 600px;
+}
+.img4 {
+  float: left;
+  padding-top: 30px;
+  width: 400px;
+  height: 500px;
+}
+#heading02 {
+  color: #f54409;
+  font-size: 45px;
+  padding: 5px;
+}
+#p4 {
+  font-size: 22px;
+}
+.btn4 {
+  background-color: #f54409;
+  color: white;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  border-color: #f54409;
+  margin-top: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+/* why division css style */
+#d6 {
+  height: 750px;
+}
+#headingh4 {
+  color: #f22d17;
+  margin-left: 70px;
+  font-size: 30px;
+}
+#heading03 {
+  margin-left: 70px;
+  font-size: 45px;
+  color: hsl(9, 86%, 43%);
+}
+#p5 {
+  font-size: 20px;
+  color: #000;
+  text-align: left;
+  margin-left: 70px;
+}
+.img5 {
+  float: right;
+  padding-bottom: 30px;
+  margin-right: 30px;
+  width: 400px;
+}
+#progressdiv {
+  padding-top: 20px;
+  height: 400px;
+}
+.progress-container {
+  /* padding: 20px; */
+  width: 350px;
+  /* margin: 50px auto; */
+  background-color: #fef7f7;
+  border-radius: 50px;
+  overflow: hidden;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.progress-bar {
+  width: 0;
+  height: 30px;
+  background-color: #f54409;
+  transition: width 0.3s ease;
+  text-align: right;
+  color: #f5f0f0;
+  font-weight: bold;
+}
+.progress-text {
+  text-align: left;
+  color: #161414;
+  margin-left: 70px;
+  font-weight: bold;
+}
+/* our portolio divison */
+#d7 {
+  background-color: #e0410c;
+  height: 1000px;
+  padding-top: 40px;
+}
+#heading05 {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+#heading06 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+#b1_a {
+  text-decoration: none;
+  color: rgb(244, 235, 235);
+}
+#b2_a {
+  text-decoration: none;
+  color: rgb(16, 11, 11);
+}
+.card4 {
+  margin-top: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+  margin-left: 40px;
+  text-align: center;
+  font-family: arial;
+  height: 200px;
+  /* padding: 20px; */
+  float: left;
+  cursor: pointer;
+}
+#b1 {
+  margin-left: 400px;
+  background-color: #000;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  height: 40px;
+  width: 60px;
+  font-size: 20px;
+  box-shadow: #bcb5b5;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#b2 {
+  background-color: #e7e7e7;
+  color: rgb(23, 21, 21);
+  text-align: center;
+  border-color: #e7e7e7;
+  border-radius: 5px;
+  height: 40px;
+  width: 70px;
+  font-size: 20px;
+  margin-left: 15px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#b3 {
+  background-color: #e7e7e7;
+  color: rgb(15, 14, 14);
+  text-align: center;
+  border-radius: 5px;
+  border-color: #e7e7e7;
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+  margin-left: 15px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.container {
+  padding: 2px 16px;
+}
+#b4 {
+  height: 50px;
+  width: 150px;
+  background-color: #e23e2c;
+  margin-top: 30px;
+  color: white;
+  margin-left: 450px;
+  border-color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#b4_a {
+  text-decoration: none;
+  color: white;
+}
+
+#b4.hover {
+  background-color: #000;
+}
+/* valuable resoursces division css style */
+#d8 {
+  height: 900px;
+  padding: 20px;
+  background-color: hsl(0, 28%, 95%);
+}
+#heading07 {
+  color: red;
+  font-size: 30px;
+  text-align: center;
+}
+#heading08 {
+  color: #0c0707;
+  font-size: 50px;
+  text-align: center;
+}
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+  margin-left: 50px;
+  text-align: center;
+  font-family: arial;
+  height: 500px;
+  padding: 10px;
+  float: left;
+}
+#b5 {
+  margin-top: 50px;
+  height: 40px;
+  width: 150px;
+  color: white;
+  border-radius: 10px;
+  background-color: #f54409;
+  font-size: 20px;
+  border-color: #f54409;
+  margin-left: 410px;
+  cursor: pointer;
+}
+#b5_a {
+  text-decoration: none;
+  color: white;
+}
+/* testimonal website division stylee css */
+#d9 {
+  height: 700px;
+  text-align: center;
+}
+#heading09 {
+  color: red;
+  font-size: 30px;
+}
+#p6 {
+  color: #0c0707;
+  font-size: 40px;
+}
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  margin-left: 60px;
+  text-align: center;
+  font-family: arial;
+  height: 500px;
+  float: left;
+  padding: 23px;
+}
+/* FAQ division style css */
+#d10 {
+  height: 600px;
+  text-align: center;
+  background-color: #eff4f5;
+}
+#heading10 {
+  color: red;
+  font-size: 30px;
+}
+#heading11 {
+  color: black;
+  font-size: 50px;
+}
+/* /* Style for the container holding the button and content */
+.faq-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  height: 300px;
+}
+/* Style for the button */
+.faq-btn {
+  background-color: white;
+  color: #1f1d1d;
+  padding: 10px;
+  border: none;
+  font-size: 20px;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+}
+.faq-btn.hover {
+  background-color: red;
+}
+/* Style for the content initially hidden */
+.faq-container .faq-hide {
+  display: none;
+}
+/* Style for the content when it's shown */
+.faq-container .faq-show {
+  display: block;
+  /* Add any additional styling for the shown state */
+}
+/* Style for the content inside the hidden/shown container */
+.faq-container p {
+  margin: 0;
+  /* Add any additional styling for the paragraph */
+}
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin-left: 40px;
+  text-align: center;
+  font-family: arial;
+  height: 180px;
+  padding: 20px;
+}
+/* team.html style is here */
+#teamh1 {
+  font-size: 30px;
+  margin-top: 150px;
+  text-align: center;
+  color: #000;
+}
+.teamcard1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  margin-left: 40px;
+  text-align: center;
+  font-family: arial;
+  color: #000;
+  height: 350px;
+  padding: 20px;
+  float: left;
+}
+#teamd11 {
+  /* background-color: black; */
+  margin-top: 100px;
+  height: 1600px;
+  color: rgb(232, 245, 246);
+}
+/* contact.html style is here */
+#contactdiv1 {
+  margin-top: 130px;
+  width: 100%;
+  background-color: white;
+}
+#contacth1 {
+  font-size: 40px;
+  text-align: center;
+}
+#contactp1 {
+  font-size: 18px;
+  text-align: center;
+  color: hsla(0, 1%, 43%, 0.97);
+}
+#contactdiv {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  height: 850px;
+  width: 550px;
+  background-color: #b1e2f2;
+  margin-left: 300px;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.conatactcard {
+  width: 200px;
+  float: right;
+  padding: 10px;
+  margin-left: 30px;
+}
+.contactcard form {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  margin-left: 130px;
+}
+.contactcard label {
+  margin-top: 10px;
+  text-align: left;
+  font-weight: bold;
+  height: 30px;
+}
+.contactcard input {
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#services {
+  padding: 9px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+}
+.contactcard button {
+  background-color: #4caf50;
+  color: #fff;
+  margin-top: 30px;
+  margin-left: 100px;
+  padding: 10px;
+  text-align: center;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+}
+.contactcard button:hover {
+  background-color: #45a049;
+}
+/* service html css start */
+#serviced9 {
+  height: 700px;
+  text-align: center;
+  margin-top: 100px;
+}
+.service_card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 220px;
+  margin-left: 40px;
+  text-align: center;
+  font-family: arial;
+  height: 400px;
+  float: left ;
+  padding: 20px;
+  background-color: rgb(225, 242, 244);
+}
+#service_nav {
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  padding: 12px 16px;
+}
+#service_h3 {
+  color: red;
+  font-size: 25px;
+}
+#service_a {
+  color: red;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px;
+}
+#service_a:hover {
+  color: rgb(33, 90, 17);
+}
+/* blog css start */
+#blog_div {
+  text-align: center;
+  height: 600px;
+  width: 100%;
+  background-color: rgb(218, 62, 5);
+}
+#blog_h3 {
+  color: white;
+  font-size: 30px;
+}
+#blog_h2 {
+  color: rgb(246, 237, 237);
+  font-size: 100px;
+}
+#blog_email {
+  height: 50px;
+  width: 400px;
+  background-color: rgb(237, 183, 162);
+  cursor: pointer;
+  font-size: 22px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+#blog_btn {
+  height: 50px;
+  width: 400px;
+  text-align: center;
+  color: rgb(253, 69, 2);
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+#blog_div3 {
+  text-align: center;
+  height: 1400px;
+  background-color: white;
+}
+.blog_card2 {
+  font-size: 20px;
+  color: #4caf50;
+  height: 500px;
+  float: left;
+  padding: 20px;
+  margin-left: 30px;
+  background-color: rgb(204, 91, 50);
+}
+#card_btn {
+  margin: 100px;
+  height: 40px;
+  width: 180px;
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+#blog_div2 {
+  height: 1000px;
+  text-align: center;
+}
+.blog_categorie {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 350px;
+  width: 200px;
+  margin-left: 50px;
+  transition: 0.3s;
+  float: left;
+  padding: 20px;
+}
+/* On mouse-over, add a deeper shadow */
+.blog_categorie:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  background-color: #bcb5b5;
+  opacity: 1;
+}
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+/* body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  padding: 0 2rem;
+} */
+#d11 {
+  background-color: rgb(49, 43, 43);
+  height: 600px;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  border-color: #ccc;
+}
+#footer_h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+#footer_p1 {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 1rem;
+  font-size: 18px;
+}
+#footer_p {
+  margin-bottom: 1rem;
+  font-size: 15px;
+}
+.footer_a {
+  color: #0066cc;
+  text-decoration: none;
+}
+.footer_a:hover {
+  text-decoration: underline;
+}
+/* portfolio css applied here */
+#portfolio_div1 {
+  margin-top: 100px;
+  height: 400px;
+  width: 100%;
+  background-color: rgb(243, 11, 11);
+  background-image: linear-gradient(to bottom right, rgb(241, 10, 10), rgb(250, 47, 189));
+  color: white;
+  text-align: center;
+}
+#portfolio_h2 {
+  padding: 20px;
+  text-align: left;
+  font-size: 80px;
+  margin-left: 70px;
+  height: 500px;
+}
+#portfolio_h2 {
+  padding: 20px;
+  text-align: left;
+  font-size: 80px;
+  margin-left: 70px;
+  height: 500px;
+}
+#portfolio_div2 {
+  margin-top: 100px;
+  height: 700px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+#portfolio_h5 {
+  text-align: center;
+  font-size: 15px;
+  color: #ed8803;
+}
+#portfolio_h4 {
+  text-align: center;
+  font-size: 40px;
+  color: #000;
+}
+/* portfolio slidshow dividion styles */
+* {
+  box-sizing: border-box
+}
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0
+}
+.mySlides {
+  display: none
+}
+img {
+  vertical-align: middle;
+}
+/* Slideshow container */
+.slideshow-container {
+  width: 500px;
+  position: static;
+  margin-left: 300px;
+  margin-right: 100px;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  overflow: auto;
+  margin-top: 200px;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* Caption text */
+.text {
+  color: #1c1a1a;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 200px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px
+  }
+}
